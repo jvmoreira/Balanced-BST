@@ -1,0 +1,4 @@
+*.o
+bst
+.idea
+test/run_tests
