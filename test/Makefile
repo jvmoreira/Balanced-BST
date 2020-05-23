@@ -2,7 +2,8 @@ CFLAGS = -Wall -Wextra -Werror -I ../headers
 
 EXEC = run_tests
 
-FILES =	$(EXEC)
+FILES =	$(EXEC)					\
+		utils/terminal_helper	\
 
 OBJECTS = $(addsuffix .o, $(FILES))
 
