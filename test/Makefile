@@ -16,6 +16,6 @@ all: $(EXEC)
 $(EXEC): $(OBJECTS)
 
 clean:
-	@-rm -f *.o
+	@-rm -f $(OBJECTS)
 purge: clean
 	@rm -f $(EXEC)

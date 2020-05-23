@@ -17,7 +17,7 @@ test: all
 
 clean:
 	@echo Cleaning project files...
-	@-rm -f *.o
+	@-rm -f $(OBJECTS)
 	@make clean -C test
 purge: clean
 	@-rm -f $(EXEC)
